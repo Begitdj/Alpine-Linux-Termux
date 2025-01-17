@@ -50,6 +50,23 @@ cd $HOME/alpine-linux-edge && rm -rf alpineEdge.qcow2 && qemu-img create -f qcow
 you can change disk size changing gb on end of command default:15
 #### If alpine say /media/vda not a directory
 i dont know i just trying again and it work
+#### Some packages not available?
+Maybe this package only in edge repository(Example: Neofetch) you can install edge version or add edge repository
+Open /etc/apk/repositories with any text editor(Example: Nano(apk add nano) and add to the end of file
+```
+http://dl-cdn.alpinelinux.org/alpine/edge/main
+http://dl-cdn.alpinelinux.org/alpine/edge/community
+http://dl-cdn.alpinelinux.org/alpine/edge/testing
+https://wiki.alpinelinux.org/wiki/Edge
+```
+You can also check offical alpine linux wiki about edge 
+https://wiki.alpinelinux.org/wiki/Edge
+If this packages available in repository 
+try run
+```
+apk update && apk upgrade
+```
+and try again
 ### Error? Bug?
 #### Please open new issues on github
 ### Do you have any recommendations or suggestions and questions?
