@@ -31,3 +31,5 @@ cd $HOME/alpine-linux && rm -rf alpine.qcow2 && qemu-img create -f qcow2 alpine.
 you can change disk size changing gb on end of command default:15
 #### If alpine say /media/vda not a directory
 i dont know i just trying again and it work
+### Error? Bag?
+#### Please create new issues on github
