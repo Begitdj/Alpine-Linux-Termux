@@ -43,6 +43,10 @@ cd $HOME && rm -rf start-alpine-edge.sh && rmdir alpine-linux-edge
 ````
 cd $HOME/alpine-linux && rm -rf alpine.qcow2 && qemu-img create -f qcow2 alpine.qcow2 15G
 ````
+##### For edge
+````
+cd $HOME/alpine-linux-edge && rm -rf alpineEdge.qcow2 && qemu-img create -f qcow2 alpineEdge.qcow2 15G
+````
 you can change disk size changing gb on end of command default:15
 #### If alpine say /media/vda not a directory
 i dont know i just trying again and it work
