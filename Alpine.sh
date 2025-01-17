@@ -16,9 +16,9 @@ echo '\033[92mDownloading alpine linux iso..'
 wget https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-virt-3.21.2-x86_64.iso
 echo '\033[92m Enter the size of the desired disk in GB just number?(Recommended 15 and Above'
 read sizegb
-gbn=${sizegb}'GB';
+gbn=${sizegb}'G';
 echo '\033[92m Creating qcow2 virtual disk..'
-qemu-img create -f qcow2 alpine.qcow2 $sizegb
+qemu-img create -f qcow2 alpine.qcow2 $gbn
 command touch $HOME/start-alpine.sh
 echo "cd $HOME/alpine-linux/
 qemu-system-x86_64 -smp 2 -m 2048 \
