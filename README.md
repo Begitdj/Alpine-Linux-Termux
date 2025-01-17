@@ -32,4 +32,6 @@ you can change disk size changing gb on end of command default:15
 #### If alpine say /media/vda not a directory
 i dont know i just trying again and it work
 ### Error? Bug?
-#### Please create new issues on github
+#### Please open new issues on github
+### Do you have any recommendations or suggestions and questions?
+#### Please open new issues on GitHub
