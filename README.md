@@ -11,5 +11,10 @@ pkg inatall curl -y
 ````
 #### Start installation
 ````
-https://raw.githubusercontent.com/Begitdj/Alpine-Linux-Termux/refs/heads/main/Alpine.sh
+bash <(curl -s https://raw.githubusercontent.com/Begitdj/Alpine-Linux-Termux/refs/heads/main/Alpine.sh)
+````
+#### Finish installation
+after alpine started login as root (no pass) and run setup-alpine after you setup the installation you can run alpine using 
+````
+bash $HOME/start-alpine.sh
 ````
