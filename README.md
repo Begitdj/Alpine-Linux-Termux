@@ -18,3 +18,16 @@ after alpine started login as root (no pass) and run setup-alpine after you setu
 ````
 bash $HOME/start-alpine.sh
 ````
+### Uninstall
+Run
+```
+cd $HOME && rm -rf start-alpine.sh && rmdir alpine-linux
+```
+### Troubleshooting
+#### If alpine say 0 gb on disk while instalation re create qemu virtual disk
+````
+cd $HOME/alpine-linux && rm -rf alpine.qcow2 && qemu-img create -f qcow2 alpine.qcow2 15G
+````
+you can change disk size changing gb on end of command default:15
+#### If alpine say /media/vda not a directory
+i dont know i just trying again and it work
