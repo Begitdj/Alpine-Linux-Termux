@@ -70,6 +70,8 @@ apk update && apk upgrade
 #### Graphic bug in terminal
 I dont know how to fix that maybe this is qemu or termux issues you can use ssh
 and try again
+#### Internet not working?
+You can try edit /etc/resolv.conf replace all to nameserver 8.8.8.8
 ### Maybe questions
 #### Graphic interface working?
 I dont tested but most likely yes use vnc and install graphical interface
