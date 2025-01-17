@@ -77,6 +77,8 @@ You can try edit /etc/resolv.conf replace all to nameserver 8.8.8.8
 I dont tested but most likely yes use vnc and install graphical interface
 #### Can i install docker?
 Yes maybe this is too slow work but yes
+#### For me, the RAM is too little
+You can change start-alpine.sh(or start-alpine-edge.sh for edge) and change what ram is set in qemu start command
 ### Error? Bug?
 #### Please open new issues on github
 ### Do you have any recommendations or suggestions and questions?
