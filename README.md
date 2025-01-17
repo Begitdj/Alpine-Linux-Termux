@@ -1,23 +1,25 @@
 # Alpine-Linux-Termux
 Script to install alpine linux in termux using qemu
 ### Installation
-#### Update repository
+#### 1.Update repository
 ````
 pkg update -y
 ````
-#### Install Curl
+#### 2.Install Curl
 ````
 pkg inatall curl -y
 ````
-#### Start installation
+#### 3.Start installation
 ````
 bash <(curl -s https://raw.githubusercontent.com/Begitdj/Alpine-Linux-Termux/refs/heads/main/Alpine.sh)
 ````
-#### Finish installation
+#### 4.Finish installation
 after alpine started login as root (no pass) and run setup-alpine after you setup the installation kill windows with alpine and you can run alpine using 
 ````
 bash $HOME/start-alpine.sh
 ````
+#### Install Alpine Linux Edge
+Do everything as in a normal installation up to 4 points
 ### Uninstall
 Run
 ```
