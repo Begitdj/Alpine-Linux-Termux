@@ -66,7 +66,14 @@ try run
 ```
 apk update && apk upgrade
 ```
+#### Graphic bug in terminal
+I dont know how to fix that maybe this is qemu or termux issues you can use ssh
 and try again
+### Maybe questions
+#### Graphic interface working?
+I dont tested but most likely yes use vnc and install graphical interface
+#### Can i install docker?
+Yes maybe this is too slow work but yes
 ### Error? Bug?
 #### Please open new issues on github
 ### Do you have any recommendations or suggestions and questions?
