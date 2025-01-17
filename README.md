@@ -20,6 +20,11 @@ bash $HOME/start-alpine.sh
 ````
 #### Install Alpine Linux Edge
 Do everything as in a normal installation up to 4 points
+##### 4.Start install
+```
+bash <(curl -s https://raw.githubusercontent.com/Begitdj/Alpine-Linux-Termux/refs/heads/main/AlpineEdge.sh))
+```
+just continue normal installing
 ### Uninstall
 Run
 ```
