@@ -9,3 +9,7 @@ pkg update -y
 ````
 pkg inatall curl -y
 ````
+#### Start installation
+````
+https://raw.githubusercontent.com/Begitdj/Alpine-Linux-Termux/refs/heads/main/Alpine.sh
+````
