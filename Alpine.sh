@@ -13,7 +13,7 @@ echo '\033[92mCreate alpine-linux folder..'
 mkdir alpine-linux
 cd alpine-linux/
 echo '\033[92mDownloading alpine linux iso..'
-command wget https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-virt-3.21.2-x86_64.iso> /dev/null
+wget https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-virt-3.21.2-x86_64.iso
 echo '\033[92m Enter the size of the desired disk in GB just number?(Recommended 15 and Above'
 read sizegb
 gbn=${sizegb}'GB';
