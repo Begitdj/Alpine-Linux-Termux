@@ -1,5 +1,6 @@
 # Alpine-Linux-Termux
 Script to install alpine linux in termux using qemu
+Please give a star to thant repository:D
 ### Installation
 #### 1.Update repository
 ````
