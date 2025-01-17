@@ -19,16 +19,24 @@ after alpine started login as root (no pass) and run setup-alpine after you setu
 bash $HOME/start-alpine.sh
 ````
 #### Install Alpine Linux Edge
-Do everything as in a normal installation up to 4 points
+Installing on other folder and other start script can install behind normal alpine
+Do everything as in a normal installation up to 3 points
 ##### 4.Start install
 ```
 bash <(curl -s https://raw.githubusercontent.com/Begitdj/Alpine-Linux-Termux/refs/heads/main/AlpineEdge.sh))
 ```
-just continue normal installing
+just continue 4 point but edge has another start script
+````
+bash $HOME/start-alpine-edge.sh
+````
 ### Uninstall
 Run
 ```
 cd $HOME && rm -rf start-alpine.sh && rmdir alpine-linux
+```
+##### Uninstall alpine Linux Edge
+```
+cd $HOME && rm -rf start-alpine-edge.sh && rmdir alpine-linux-edge
 ```
 ### Troubleshooting
 #### If alpine say 0 gb on disk while instalation re create qemu virtual disk
